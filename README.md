@@ -156,4 +156,4 @@ Defaults as the name says, have only default values for variables if you don't s
    - nginx
   vars:
    nginx_port: 8080
-Simply add vars block and define values that should be used in given host. Host(s) defined variables has priority over default variables so in template you will get 8080 instead of 80. You can override as many values as you want. You can also override values per host. So if you would add second playbook you can change nginx port as well
+Simply add vars block and define values that should be used  given host. Host(s) defined variables has priority over default variables so in template you will get 8080 instead of 80. You can override as many values as you want. You can also override values per host. So if you would add second playbook you can change nginx port as well
